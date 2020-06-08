@@ -1,0 +1,39 @@
+.wrapper {
+  background: #f1f1f1;
+
+  .panel-main {
+    background: url("../../assets/bg.jpg");
+    background-size: contain;
+
+    .restore-box {
+      margin: 150px 390px;
+      background: white;
+      padding: 30px 40px;
+      color: #1A2D54;
+      border: 10px solid;
+      width: 500px;
+      height: 320px;
+      border-radius: 50px;
+    }
+
+    h6 {
+      font-size: 45px;
+      line-height: 27px;
+      font-weight: 600;
+      padding-bottom: 25px;
+    }
+
+    .input-class {
+      margin-top: 30px;
+      height: 40px;
+      font-size: 30px;
+      border-radius: 25px;
+    }
+
+    .btn-submit {
+      font-size: 20px;
+      color: #1A2D54;
+      margin-top: 15px;
+    }
+  }
+}

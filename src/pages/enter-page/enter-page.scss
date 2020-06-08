@@ -1,0 +1,72 @@
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  .panel-main {
+    background: url("../../assets/bg.jpg") ;
+    background-size: contain;
+
+    .box-register {
+      background-color: white;
+      margin: 150px 350px;
+      color: #1A2D54;
+      padding: 50px;
+      border: 5px solid;
+      border-radius: 50px;
+      text-align: center;
+    }
+    .enter-title{
+       font-size: 57px;
+       color: #1A2D54;
+       font-weight: 800;
+       text-align: center;
+      margin-bottom: 25px;
+     }
+    .tittle {
+          margin-right: 50px;
+          font-size: 40px;
+          line-height: 27px;
+          font-weight: 500;
+          padding-bottom: 25px;
+        }
+    .input-field{
+      font-size: 18px;
+      border-radius: 15px;
+      width:60% ;
+      height: 40px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    .bottom-reg{
+      margin-top: 35px;
+      margin-right: 55px;
+      color:  #1A2D54;
+      text-decoration: none;
+      font-size: 20px;
+      line-height: 7px;
+      font-weight: 400;
+    }
+    .bottom-reg:hover{
+      color: deeppink;
+    }
+    .btn-submit{
+      margin-top: 25px;
+      font-size: 25px;
+      font-weight: 700;
+      color: #1A2D54;
+      border-radius: 20px;
+      border: 2px solid;
+      padding: .5em 2em;
+      width: 100%;
+      text-align: center;
+    }
+    .btn-submit:hover{
+      background-color: #1A2D54;
+      color: white;
+    }
+  }
+}
+
+form{
+  text-align: center;
+  justify-content: center;
+}

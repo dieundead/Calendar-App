@@ -1,0 +1,52 @@
+.task-wrapper{
+  display: inline-flex;
+  margin-bottom: 25px;}
+  .task.events-style .task-name {
+    background: rgba(133, 118, 237, 0.15);
+    width: 600px;
+    height: 60px;
+    border-left: 0.5rem solid rebeccapurple;
+    padding: 25px 0 25px 35px;
+  }
+  .task.reminders-style .task-name{
+    background: rgba(238, 165, 124, 0.15);
+    width: 600px;
+    height: 60px;
+    border-left: 0.5rem solid orange;
+    padding: 25px 0 25px 35px;
+  }
+  .task.birthdays-style .task-name{
+    background: #fadadd;
+    width: 600px;
+    height: 60px;
+    border-left: 0.5rem solid deeppink;
+    padding: 25px 0 25px 35px;
+  }
+  .task.holidays-style .task-name{
+    background: rgba(61, 131, 249, 0.15);
+    width: 600px;
+    height: 60px;
+    border-left: 0.5rem solid blue;
+    padding: 25px 0 25px 35px;
+  }
+
+.task-time{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #A4B0C3;
+  margin-right: 55px;
+}
+  .task-name{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #243D6F;
+  }
+  .task-date{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #243D6F;
+    margin-right: 25px;
+  }

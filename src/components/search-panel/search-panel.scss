@@ -1,0 +1,22 @@
+.d6 {
+  height: 30px;
+  background: #f1f1f1;
+  outline: none;
+  position: relative;
+  width: 250px;
+  margin: 0 auto;
+}
+.d6 input {
+  height: 30px;
+  width: 250px;
+  outline: none;
+  padding-left: 5px;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+}
+.d6 button {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+

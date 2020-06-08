@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+
+// clean css
+
+* {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  font-style: normal;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  padding: 0;
+  margin: 0;
+  font-weight: inherit;
+  cursor: default;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -moz-appearance: none;
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+  padding: 0;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+  outline: none;
+}
+
+input[type=number] {
+  &::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+// styles
+
+$dark-color: #243D6F;
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+
+  .left-sidebar{
+    background: #f1f1f1;
+    width: 250px;
+    min-width: 250px;
+  }
+  .main-panel {
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+
+  .right-sidebar{
+    background: rgba(42, 46, 65, 0.7);
+    width: 380px;
+    min-width: 380px;
+  }
+}
+
+.calendar-page {
+
+  .top-panel {
+    display: flex;
+    margin-top: 50px;
+    padding: 0 40px 50px 80px;
+    align-items: center;
+
+    .date{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      color: $dark-color;
+    }
+    .search-icon {
+      background: url("../../assets/search-icon.svg") no-repeat;
+      width: 20px;
+      height: 20px;
+      background-size: cover;
+      display: block;
+      margin-left: 30px;
+    }
+
+
+    .icons-block {
+      margin-left: auto;
+      display: flex;
+    }
+
+  }
+}
+
+.add-icon {
+  background: url("../../assets/plus.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  display: block;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.modal-window {
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  border-radius: 5px;
+  border: none;
+  padding: 20px 30px;
+  @media screen and (max-width: 650px) {
+    top: 0;
+    left: 0;
+    margin-right: 0;
+    transform: none;
+    border: none;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 0;
+    height: 100%;
+    border-radius: 0;
+    overflow-y: scroll;
+  }
+}
+
+.modal-close {
+  background: url('../../assets/cancel.svg') no-repeat center;
+  background-size: covborder;
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  @media screen and (max-width: 650px) {
+    top: 25px;
+  }
+}
+
+
+
